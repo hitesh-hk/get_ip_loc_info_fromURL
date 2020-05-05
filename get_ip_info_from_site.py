@@ -26,6 +26,7 @@ def iplookup(IP):
         zip = geoip["zip"]
         
         print ("IP Info For: {}".format(IP))
+        print ("IP address: {}".format(query))
         print ("as: {}".format(asn))
         print ("city: {}".format(city))
         print ("country: {}".format(country))
